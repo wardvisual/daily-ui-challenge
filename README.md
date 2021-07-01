@@ -1,6 +1,6 @@
-<h1>UI Components - HTML & CSS<h1>
+# UI Components - HTML & CSS
 
-# Screenshots
+## Screenshots
 
 Blog Posts
 ![Blog Posts](./screenshots/blog-posts.jpeg?raw=true "Blog Posts")
