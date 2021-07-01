@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f7f8fc;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4, p {
+  color: #383838
+}
+
+h4 {
+    line-height: 1.4em;
+    font-weight: 600;
+}
+
+p {
+    font-size: .8em;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18.5em, 1fr));
+    padding: 3em 0;
+    justify-items: center;
+    grid-gap: 1em;
+    width: 940px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.container .card {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 300px;
+    border-radius: 1em;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.container .card .card__header img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.container .card .card__body {
+    padding: 1em;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    grid-gap: 1em;
+    min-height: 15em;
+}
+
+.container .card .card__body .tag { 
+    padding: .2em 1em;
+    margin: 0;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: .8em;
+    border-radius: 2em;
+}
+
+.container .card .card__body .user { 
+    display: flex;
+    grid-gap: 1em;
+    margin-top: auto;
+}
+
+.container .card .card__body .user img {
+    width: 3em;
+    height:3em;
+
+    border-radius: 50em;
+}
+
+.container .card .card__body .tag.teal-blue {
+    background-color: #51ADC4
+}
+
+.container .card .card__body .tag.teal-violet {
+    background-color: #a52e95;
+}
+
+.container .card .card__body .tag.teal-pink {
+    background-color: #912c04
+}
+ 
